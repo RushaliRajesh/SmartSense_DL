@@ -9,3 +9,5 @@ After which they have been used for training a pre-trained model by Spacy. This 
 
 Just for a visual understanding, a .png file (output_coloured.png) is attached which shows the words highlighted as per the entity recognition.
 
+For further checking and implementation details, an .ipynb file has also been attached (colab notebook).
+
