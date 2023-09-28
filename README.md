@@ -11,3 +11,7 @@ Just for a visual understanding, a .png file (output_coloured.png) is attached w
 
 For further checking and implementation details, an .ipynb file has also been attached (colab notebook).
 
+All the code is wriiten in src.py file. All the required data is also uploaded, along with base_config.cfg file which was requireed to be created as a part of training this pretrained model.
+
+references:
+https://ner.pythonhumanities.com/03_02_train_spacy_ner_model.html 
