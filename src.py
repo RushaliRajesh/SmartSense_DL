@@ -89,7 +89,7 @@ subprocess.run(command, check=True, shell=True)
 from spacy import displacy
 
 # Load the pre-trained NER model
-nlp_ner = spacy.load("/content/models/output/model-best")
+nlp_ner = spacy.load("model-best")
 
 # Read the contents of the text file
 with open('/content/datasets/legal_train.txt', 'r', encoding='utf-8') as file:
@@ -106,4 +106,3 @@ options = {"colors": colors}
 
 # Visualize the named entities
 displacy.render(doc, style="ent", options=options, jupyter=True)
-
